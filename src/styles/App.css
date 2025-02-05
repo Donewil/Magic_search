@@ -1,0 +1,56 @@
+/* Global Styles and Hero Section */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  .App {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  /* Hero Section */
+  .hero {
+    position: relative;
+    height: 400px;
+    background: url('/public/assets/hero.gif') no-repeat center center/cover;
+    background: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .hero-overlay {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 2rem;
+    text-align: center;
+    color: #fff;
+    border-radius: 8px;
+  }
+  
+  .hero-overlay h1 {
+    font-size: 3rem;
+    margin: 0;
+  }
+  
+  .hero-overlay p {
+    font-size: 1.25rem;
+    margin-top: 0.5rem;
+  }
+  
+  /* Global Button Styling */
+  button {
+    font-family: 'Roboto', sans-serif;
+    transition: background 0.3s ease, opacity 0.3s ease;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    opacity: 0.9;
+  }
+  
